@@ -1,0 +1,109 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ .text-style{
+  color: #FFFFFF !important;
+  cursor: pointer;
+ }
+@media only screen and (max-width: 600px) {
+  .blue, .pink, .olivegreen, .duskyrose, .violet, .turquoise, .viridian, .iris, .grey{
+    height: 75px;
+    padding: 3px;
+    line-height: 75px;
+  }
+  .blue{
+    background-color: #2C88D9 !important;
+  }
+  .pink{
+    background-color: #D3455B  !important;
+  }
+  .olivegreen{
+    background-color: #887A5F  !important;
+  }
+  .duskyrose{
+    background-color: #AC6363  !important;
+  }
+  .violet{
+    background-color: #730FC3  !important;
+  }
+  .turquoise{
+    background-color: #1CAD9F  !important;
+  }
+  .viridian{
+    background-color: #207868 !important;
+  }
+  .iris{
+    background-color: #6557F5 !important;
+  }
+  .grey{
+    background-color: #4A5C6B !important;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .blue{
+    height: 190px;
+    line-height: 190px;
+    padding: 16px;
+    background-color: #2C88D9 !important;
+  }
+  .pink{
+    height: 75px;
+    line-height: 75px;
+    padding: 16px;
+    background-color: #D3455B  !important;
+  }
+  .olivegreen{
+    height: 75px;
+    line-height: 75px;
+    padding: 16px;
+    background-color: #887A5F  !important;
+  }
+  .duskyrose{
+    height: 75px;
+    line-height: 75px;
+    padding: 16px;
+    background-color: #AC6363  !important;
+  }
+  .violet{
+    height: 50px;
+    line-height: 50px;
+    padding: 16px;
+    background-color: #730FC3  !important;
+  }
+  .turquoise{
+    height: 100px;
+    line-height: 100px;
+    padding: 16px;
+    background-color: #1CAD9F  !important;
+  }
+  .viridian{
+    height: 190px;
+    line-height: 190px;
+    padding: 16px;
+    background-color: #207868 !important;
+  }
+  .iris{
+    height: 100px;
+    line-height: 100px;
+    padding: 16px;
+    background-color: #6557F5 !important;
+  }
+  .grey{
+    height: 50px;
+    line-height: 50px;
+    padding: 16px;
+    background-color: #4A5C6B !important;
+  }
+}

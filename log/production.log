@@ -1,0 +1,47 @@
+I, [2021-08-24T21:18:12.237201 #76765]  INFO -- : [738531cd-e5a3-4149-95cb-bfcfa3eeb30f] Started GET "/" for 127.0.0.1 at 2021-08-24 21:18:12 +0900
+I, [2021-08-24T21:18:12.239622 #76765]  INFO -- : [738531cd-e5a3-4149-95cb-bfcfa3eeb30f] Processing by PagesController#home as HTML
+I, [2021-08-24T21:18:12.245074 #76765]  INFO -- : [738531cd-e5a3-4149-95cb-bfcfa3eeb30f]   Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 152)
+I, [2021-08-24T21:18:12.245774 #76765]  INFO -- : [738531cd-e5a3-4149-95cb-bfcfa3eeb30f]   Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 939)
+I, [2021-08-24T21:18:12.245878 #76765]  INFO -- : [738531cd-e5a3-4149-95cb-bfcfa3eeb30f] Completed 500 Internal Server Error in 6ms (Allocations: 3379)
+F, [2021-08-24T21:18:12.246355 #76765] FATAL -- : [738531cd-e5a3-4149-95cb-bfcfa3eeb30f]   
+[738531cd-e5a3-4149-95cb-bfcfa3eeb30f] ActionView::Template::Error (Webpacker can't find application.css in /Users/shahid/Desktop/koan/move_fast/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "Index.js": "/packs/js/Index-9a6380efe753b79b9699.js",
+  "Index.js.map": "/packs/js/Index-9a6380efe753b79b9699.js.map",
+  "application.js": "/packs/js/application-21b3187188e906f44666.js",
+  "application.js.map": "/packs/js/application-21b3187188e906f44666.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-21b3187188e906f44666.js"
+      ],
+      "js.map": [
+        "/packs/js/application-21b3187188e906f44666.js.map"
+      ]
+    },
+    "Index": {
+      "js": [
+        "/packs/js/Index-9a6380efe753b79b9699.js"
+      ],
+      "js.map": [
+        "/packs/js/Index-9a6380efe753b79b9699.js.map"
+      ]
+    }
+  }
+}
+):
+[738531cd-e5a3-4149-95cb-bfcfa3eeb30f]      6:     <%= csrf_meta_tags %>
+[738531cd-e5a3-4149-95cb-bfcfa3eeb30f]      7:     <%= csp_meta_tag %>
+[738531cd-e5a3-4149-95cb-bfcfa3eeb30f]      8: 
+[738531cd-e5a3-4149-95cb-bfcfa3eeb30f]      9:     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[738531cd-e5a3-4149-95cb-bfcfa3eeb30f]     10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+[738531cd-e5a3-4149-95cb-bfcfa3eeb30f]     11:     <%= stylesheet_pack_tag 'application' %>
+[738531cd-e5a3-4149-95cb-bfcfa3eeb30f]     12:     <%= javascript_pack_tag 'Index' %>
+[738531cd-e5a3-4149-95cb-bfcfa3eeb30f]   
+[738531cd-e5a3-4149-95cb-bfcfa3eeb30f] app/views/layouts/application.html.erb:9
