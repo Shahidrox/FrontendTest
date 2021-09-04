@@ -11,9 +11,8 @@ Feel free to include comments to explain the intentions or thoughts behind what 
 
 Good luck! がんばってください！
 
-## Instructions
+## DEMO
 #### URL
-
 https://dry-cove-82221.herokuapp.com
 
 #### GIST
